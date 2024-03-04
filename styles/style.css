@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background: url(../pocket-watch-with-glitters.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.watch-container{
+    background: white;
+    width: 26%;
+    height: 250px;
+    box-shadow: 0 0 5px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#controller{
+    display: flex;
+}
+
+.timer{
+    font-size: 68px;
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+
+#controller i{
+    font-size: 2rem;
+    color: white;
+    width: 50px;
+    padding: 10px 12px;
+    margin: 0 20px;
+}
+
+#start i{
+    background-color: green;
+    
+}
+#reset i{
+    background-color: red;
+    
+}
+#pause i{
+    background-color: green;
+    
+}
